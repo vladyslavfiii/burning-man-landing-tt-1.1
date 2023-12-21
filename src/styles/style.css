@@ -99,6 +99,7 @@ img{
 }
 .description{
     width: 564px;
+    justify-content: space-between;
 }
 .description-title{
     font-family: 'Anton', sans-serif;
