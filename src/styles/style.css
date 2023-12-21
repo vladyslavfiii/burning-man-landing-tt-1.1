@@ -26,11 +26,11 @@ img{
 @media (max-width: 1400px) {
     .about .container{
         margin-top: 113px;
+        flex-direction: column;
         align-items: center;
     }
     .description-about{
-        flex-direction: column;
-        justify-content: center;
+        width: 564px;
         align-items: center;
     }
 }
@@ -131,8 +131,8 @@ img{
 }
 .description-about{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 .about .container div{
