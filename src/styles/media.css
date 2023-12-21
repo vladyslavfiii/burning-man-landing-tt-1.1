@@ -1,0 +1,97 @@
+@media (max-width: 375px){
+    body{
+        font-size: 12px;
+    }
+    img{
+        width: 50px;
+    }
+    .header .container{
+        width: 320px;
+        background: red;
+    }
+    .about .container{
+        width: 320px;
+        background: blue;
+    }
+    .footer .container{
+        width: 320px;
+        background: green;
+    }
+    .header{
+        height: 600px;
+    }
+    #subtitle{
+        font-size: 15px;
+    }
+    #title{
+        font-size: 50px;
+    }
+    .description{
+        width: 320px;
+    }
+    .description-about{
+        width: 320px;
+    }
+    .description-title{
+        width: 320px;
+    }
+    .description-text{
+        width: 320px;
+    }
+}
+@media (max-width: 576px){
+    body{
+        font-size: 12px;
+    }
+    img{
+        width: 375px;
+    }
+    .logo{
+        width: 19px;
+    }
+    .header .container{
+        width: 375px;
+        background: red;
+    }
+    .about .container{
+        width: 375px;
+        background: blue;
+    }
+    .footer .container{
+        width: 375px;
+        background: green;
+    }
+    .header{
+        height: 600px;
+    }
+
+    #subtitle{
+        font-size: 22.5px;
+    }
+    #title{
+        font-size: 75px;
+    }
+    .description{
+        width: 375px;
+    }
+    .description-about{
+        width: 375px;
+    }
+    .description-title{
+        width: 375px;
+    }
+    .description-text{
+        width: 375px;
+    }
+}
+@media (max-width: 1400px) {
+    .about .container{
+        margin-top: 113px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .description-about{
+        width: 564px;
+        align-items: center;
+    }
+}
